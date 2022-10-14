@@ -4,7 +4,6 @@
 * main-entry point
 * 
 * Description: prints all possible combinations of two two-digit numbers
-*
 * Return:0 success, non zero fail
 */
 
@@ -33,3 +32,4 @@ putchar(' ');
 putchar('\n');
 return (0);
 }
+
