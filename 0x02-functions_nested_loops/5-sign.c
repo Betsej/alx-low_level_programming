@@ -2,7 +2,8 @@
 
 /**
  * print_sign - check the sign of a number
- * @n: the number whose sign is to be checked 
+ *
+ * @n: Number whose sign is to be checked 
  * Returns: 1 and prints + if n is greater than zero
  * 0 and prints 0 if n is zero
  * -1 and prints - if n is less than zero
@@ -16,13 +17,14 @@ if (n > 0);
 _putchar('+');
 return (1);
 }
-else if (n < 0)
+else if (n == 0)
 {
-_putchar ('-');
-return (-1);
+_putchar (0);
+return (0);
 }
 else
 {
--putchar ('0');
-return (0);
+-putchar ('-');
+return (-1);
+}
 }
