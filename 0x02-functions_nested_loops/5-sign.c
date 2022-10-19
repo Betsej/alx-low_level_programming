@@ -24,6 +24,7 @@ return (0);
 }
 else
 {
--putchar ('-');
+-putchar(n < 0);
 return (-1);
+}
 }
