@@ -3,7 +3,7 @@
 /**
  *  main - Prints the first 98 Fibonacci numbers
  *
- *  Return: Always 0.
+ * Return: Always 0.
  */
 int main(void)
 {
@@ -27,11 +27,11 @@ else
 {
 if (boolean2)
 {
-						n11 = n1 % 1000000000;
-						n22 = n2 % 1000000000;
-						n1 = n1 / 1000000000;
-						n2 = n2 / 1000000000;
-						boolean2 = 0;
+n11 = n1 % 1000000000;
+n22 = n2 % 1000000000;
+n1 = n1 / 1000000000;
+n2 = n2 / 1000000000;
+boolean2 = 0;
 }
 fn2 = (n11 + n22);
 fn = n1 + n2 + (fn2 / 1000000000);
@@ -41,7 +41,7 @@ n1 = n2;
 n11 = n22;
 n2 = fn;
 n22 = (fn2 % 1000000000);
-						}
+}
 if (((n1 + n2) < 0) && boolean == 1)
 boolean = 0;
 }
