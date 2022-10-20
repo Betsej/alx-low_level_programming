@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
- * _isdigit - if it is a digit
- * @c: print int
+ * _isdigit - if is a digit
+ *@c: print int
  * Return: Always 0.
  */
 
@@ -14,6 +15,6 @@ return (1);
 
 else
 {
-return (0)
+return (0);
 }
 }
