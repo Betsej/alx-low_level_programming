@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - prints diagonal line
- *@n: print int
+ * @n: print int
  * Return: Always 0.
  */
 
@@ -14,7 +14,7 @@ int b;
 if (n > 0)
 {
 for (i = 0; i < n; i++)
-}
+{
 for (b = 0; b < i; b++)
 {
 _putchar (' ');
