@@ -1,22 +1,22 @@
+#include <studio.h>
 #include "main.h"
 /**
- *print_most_numbers - print numbers
- *
- * Return: Always 0.
- */
+*print_most_numbers - prints numbers except 2 & 4
+*
+*Return: nothing
+*/
+
 void print_most_numbers(void)
 {
+int n;
 
-int i;
-
-i = 0;
-while (i < 10)
+for (n = 48; n < 58; n++)
 {
-if (i != 2 && i != 4)
+if ((n == 50) || (n == 52))
 {
-_putchar (i + '0');
+continue;
 }
-i++;
+putchar(n);
 }
-_putchar ('\n');
+putchar(10);
 }
