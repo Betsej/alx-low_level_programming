@@ -1,1 +1,1 @@
-my 0x04-more_functions_nested_loops Task
+3-print_numbers.c
