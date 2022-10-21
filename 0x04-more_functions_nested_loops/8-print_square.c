@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_square - prints hashes squares.
- * @size: size of the square.
+ * print_square - prints a square.
+ * @size: print size
  *
- * Return: no return.
+ * Return: Always: 0.
 */
 void print_square(int size)
 {
@@ -19,5 +19,9 @@ _putchar(35);
 if (i != size - 1)
 _putchar('\n');
 }
-_putchar('\n');
+}
+else
+{
+    _putchar ('\n');
+}
 }
