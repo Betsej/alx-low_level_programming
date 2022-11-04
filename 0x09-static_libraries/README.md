@@ -1,0 +1,1 @@
+Static in C program
